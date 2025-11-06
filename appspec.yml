@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/laravelblogapp/public
+    destination: /var/www/laravelblogapp
 permissions:
-  - object: /var/www/laravelblogapp/public
-    owner: www-data
-    group: www-data
+  - object: /var/www/laravelblogapp
+    owner: deployer
+    group: deployer
     mode: 755
 hooks:
   BeforeInstall:
