@@ -1,5 +1,5 @@
 #!/bin/bash
-cp /var/www/.env /var/www/laravelblogapp/
+#cp /var/www/.env /var/www/laravelblogapp/
 sudo chown -R www-data:www-data /var/www/laravelblogapp/
 
 sudo -u deployer bash <<EOF
