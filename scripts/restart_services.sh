@@ -1,9 +1,9 @@
 #!/bin/bash
 sudo systemctl restart nginx
-#sudo systemctl restart php-fpm8.2
+sudo systemctl restart php-fpm
 
 # Switch to deployer user to run Laravel optimizations
-#sudo -u deployer bash <<EOF
+sudo -u deployer bash <<EOF
 cd /var/www/laravelblogapp/
 
 # Run Laravel optimizations
