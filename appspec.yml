@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/deployer/sites/laravelblogapp
+    destination: /var/www/laravelblogapp/public
 permissions:
-  - object: /home/deployer/sites/laravelblogapp
+  - object: /var/www/laravelblogapp/public
     owner: deployer
     group: deployer
     mode: 755
