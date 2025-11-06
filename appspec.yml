@@ -5,8 +5,8 @@ files:
     destination: /var/www/laravelblogapp/public
 permissions:
   - object: /var/www/laravelblogapp/public
-    owner: deployer
-    group: deployer
+    owner: www-data
+    group: www-data
     mode: 755
 hooks:
   BeforeInstall:
