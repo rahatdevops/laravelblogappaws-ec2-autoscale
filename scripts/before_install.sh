@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/deployer/sites/laravelblogapp
-sudo cp .env /home/deployer/sites/
-sudo rm -rf /home/deployer/sites/laravelblogapp/*
-sudo rm -rf /home/deployer/sites/laravelblogapp/.*
+cd /var/www/laravelblogapp
+sudo cp .env /var/www/
+sudo rm -rf /var/www/laravelblogapp/*
+sudo rm -rf /var/www/laravelblogapp .*
