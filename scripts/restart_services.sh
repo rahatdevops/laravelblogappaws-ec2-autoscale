@@ -1,10 +1,10 @@
 #!/bin/bash
 sudo systemctl restart nginx
-sudo systemctl restart php-fpm
+sudo systemctl restart php-fpm8.2
 
 # Switch to deployer user to run Laravel optimizations
 sudo -u deployer bash <<EOF
-cd /home/deployer/sites/laravelblogapp/
+cd /var/www/laravelblogapp/
 
 # Run Laravel optimizations
 php artisan config:cache
